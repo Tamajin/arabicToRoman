@@ -7,7 +7,7 @@
 const arabicNumbers = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
 const romanNumbers = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"];
 
-// faire correspondre les tableaux avec une formule mathématique pour déterminer le résultat. 
+// faire correspondre les tableaux avec une boucle for while et incrementer autant de fois que le nombre entré en paramètre est >= l'index du tableau des chiffres arabes (en partant de 0) 
 
 arabicToRoman = (number) => {
     let result = "";
@@ -20,7 +20,16 @@ arabicToRoman = (number) => {
     return result
 };
 
-console.log(arabicToRoman(5))
+console.log(arabicToRoman(952));
+console.log(arabicToRoman(12));
+console.log(arabicToRoman(1450));
+console.log(arabicToRoman(1387));
+console.log(arabicToRoman(75));
+console.log(arabicToRoman(83));
+console.log(arabicToRoman(96));
+console.log(arabicToRoman(102));
+console.log(arabicToRoman(40));
+console.log(arabicToRoman(69));
 
 
 // Tentative en boucle for in dans un objet
